@@ -9,6 +9,11 @@ This repository contains a collection of Power BI reports and dashboards that I 
     - **Key Visuals**: Map visual showing profit by country, line charts displaying revenue and profit over time, matrix visual highlighting profit by category and subcategory with conditional formatting, bar charts for top 10 customers by revenue, and a detailed order breakdown table.
     - **Purpose**: The project aims to replace manual reports with an interactive Power BI report for the Dataline Bike Company. It provides insights into product performance, revenue development, and customer analysis, supporting decision-making for the CEO, marketing, and product teams.
 
+- **Project 2**: *U.S. Electricity Prices Analysis by State and Sector*
+    - **Data Source**: This project utilizes average annual electricity price data by state and provider, sourced from the U.S. Energy Information Administration (EIA). The dataset contains information on residential, commercial, industrial, transportation, and total average electricity rates from 2002 onward.
+    - **Key Visuals**: A map showing average electricity prices by state, line charts predicting future trends using forecasting features, drillthrough-enabled visuals for detailed state analysis, and KPI indicators highlighting states with the highest and lowest electricity prices.
+    - **Purpose**: Designed to provide a comprehensive analysis of electricity price trends across different states and sectors in the U.S., this Power BI report supports energy policy evaluation, cost optimization, and regional pricing insights for decision-makers and stakeholders.
+
 ## How to Use
 
 To view and interact with the Power BI reports:
