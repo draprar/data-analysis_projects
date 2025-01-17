@@ -14,6 +14,16 @@ This repository contains a collection of Power BI reports and dashboards that I 
     - **Key Visuals**: A map showing average electricity prices by state, line charts predicting future trends using forecasting features, drillthrough-enabled visuals for detailed state analysis, and KPI indicators highlighting states with the highest and lowest electricity prices.
     - **Purpose**: Designed to provide a comprehensive analysis of electricity price trends across different states and sectors in the U.S., this Power BI report supports energy policy evaluation, cost optimization, and regional pricing insights for decision-makers and stakeholders.
 
+- **Project 3**: *Gun Price Analysis and Prediction*
+    - **Data Source**: This project uses a dataset focused on firearm prices and their physical and performance characteristics, sourced from Kaggle. The dataset contains information about Age, Weight, Muzzle Velocity, Max Range, and Price.
+    - **Key Visuals**:
+        - Overview Page: Dataset summary with KPIs (Total Revenue, Average Price, etc.) and slicers for filtering.
+        - Price Analysis: Line and bar charts exploring price trends by age and weight, with a donut chart for age category distribution.
+        - Performance Metrics: Scatter plot analyzing Muzzle Velocity vs. Max Range, ribbon chart for price-performance trends, and gauges for performance metrics.
+        - Correlation Matrix & Relationships Between Attributes: Python-based heatmap showing relationships between attributes and price and pairplot showing relationships between attributes.
+        - Regression Analysis: Predicted vs Actual Price scatter plot with regression summary.
+    - **Purpose**: This project aims to provide insights into the factors influencing firearm prices and develop a regression model to predict prices based on attributes. It highlights trends, relationships, and predictive capabilities using Power BI and Python integration.
+
 ## How to Use
 
 To view and interact with the Power BI reports:
