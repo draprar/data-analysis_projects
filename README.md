@@ -27,7 +27,7 @@ This repository contains a collection of data analysis projects utilizing **Powe
 
 ### **Project 3: Gun Price Analysis and Prediction**  
 - **Tools Used**: Power BI, Excel, Python (Jupyter Notebook)  
-- **Data Source**: Firearm price dataset (Kaggle) with attributes like Age, Weight, Muzzle Velocity, Max Range, and Price.  
+- **Data Source**: Firearm dataset (Kaggle | [dataset](https://www.kaggle.com/datasets/rashadrmammadov/gun-price-prediction-linear-regression-model/data/) - [my notebook](https://www.kaggle.com/code/walerys/gun-price-analysis-and-prediction/)) with attributes like Age, Weight, Muzzle Velocity, Max Range, and Price.  
 - **Key Insights**:  
   - **Power BI Analysis**:  
     - Overview: Key metrics (Total Revenue, Average Price) with interactive slicers.  
@@ -45,6 +45,17 @@ This repository contains a collection of data analysis projects utilizing **Powe
       - Price prediction using machine learning models.  
       - Model evaluation (R², RMSE) and feature importance analysis.  
 - **Purpose**: This project explores **factors influencing firearm prices**, leveraging **Power BI for visualization**, **Excel for structured data exploration**, and **Python for in-depth statistical analysis and predictive modeling**.  
+
+### **Project 4: Calories Burnt Prediction**  
+- **Tools Used**: Excel
+- **Data Source**: Dataset (Kaggle | [dataset](https://www.kaggle.com/datasets/ruchikakumbhar/calories-burnt-prediction/data/)) with biological measures such as Age, Weight, Heart Rate, Duration of workout, etc., used to predict the number of calories burnt during a workout.  
+- **Key Insights**:  
+  - **Excel Analysis**:  
+    - Basic statistical analysis (mean, median, range, standard deviation, etc.).  
+    - Data cleaning and preparation using Power Query.  
+    - Pivot tables and visualizations to explore relationships between workout parameters and calories burnt.  
+    - Interactive slicers for filtering data by gender, age group, BMI category, etc.  
+- **Purpose**: This project focuses on predicting the number of calories burnt based on biological measures and workout parameters, utilizing Excel for initial analysis.
 
 ## How to Use
 
