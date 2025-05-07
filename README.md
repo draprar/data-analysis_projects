@@ -1,6 +1,6 @@
 # Data Analysis Projects 
 
-This repository contains a collection of data analysis projects utilizing **Power BI, Excel, and Python (Jupyter Notebook)**. Each project demonstrates different aspects of **data visualization, statistical analysis, and predictive modeling**, showcasing how various tools can transform raw data into actionable insights.  
+This repository contains a collection of data analysis projects utilizing **Power BI, Excel, Python (Jupyter Notebook), and R**. Each project demonstrates different aspects of **data visualization, statistical analysis, and predictive modeling**, showcasing how various tools can transform raw data into actionable insights.  
 
 ## Projects
 
@@ -63,7 +63,7 @@ This repository contains a collection of data analysis projects utilizing **Powe
 - **Description**: Classification of Iris flower species using the Random Forest algorithm.
 - **Files**:
   - `iris_rf_python.ipynb`: Full Python ML pipeline including EDA, training, evaluation, and visualizations.
-  - `iris_rf_r+report.Rmd`: Equivalent analysis using R and tidymodels, ready for knitting to PDF/HTML.
+  - `iris_rf_r.Rmd`: Equivalent analysis using R and tidymodels, ready for knitting to PDF/HTML.
 - **Key Insights**
   - Exploratory Data Analysis (EDA)
   - Train/Test Split
