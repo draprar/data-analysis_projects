@@ -87,6 +87,24 @@ To explore the projects:
 1. Install required libraries (`pandas`, `seaborn`, `matplotlib`, `sklearn`, etc.).  
 2. Run the `.ipynb` notebook in Jupyter to explore statistical and ML analysis. 
 
+### **RMarkdown Report (R Analysis)**
+1. Install **R** and **RStudio** if you don't have them yet.
+2. Install the required R packages by running:
+   ```bash
+   Rscript -e "install.packages('rmarkdown')"
+   Rscript -e "install.packages('tidymodels')"
+   Rscript -e "install.packages('ggplot2')"
+   ```
+3. From your terminal, run the following command to generate the report from the `.Rmd` file:
+   ```bash
+   Rscript -e "rmarkdown::render('iris_rf_r+report.Rmd', output_format = 'pdf_document')"
+   ```
+   Or for an HTML report:
+   ```bash
+   Rscript -e "rmarkdown::render('iris_rf_r+report.Rmd', output_format = 'html_document')"
+   ```
+4. This will render the report and save it in the same directory.
+
 ## License
 
 This project is licensed under the MIT License.
