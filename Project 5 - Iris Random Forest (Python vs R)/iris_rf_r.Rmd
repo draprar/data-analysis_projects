@@ -1,0 +1,62 @@
+---
+title: "Iris Classification with Random Forest"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidymodels)
+library(vip)
+```
+
+# 1. Load and inspect data
+```{r}
+data(iris)
+head(iris)
+summary(iris)
+```
+
+# 2. Data split
+```{r}
+set.seed(42)
+split <- initial_split(iris, prop = 0.8)
+train_data <- training(split)
+test_data <- testing(split)
+```
+
+# 3. Model definition and training
+```{r}
+rf_spec <- rand_forest(mode = "classification", trees = 100) %>%
+  set_engine("ranger")
+
+rf_wf <- workflow() %>%
+  add_model(rf_spec) %>%
+  add_formula(Species ~ .)
+
+rf_fit <- fit(rf_wf, data = train_data)
+```
+
+# 4. Predictions and accuracy
+```{r}
+rf_preds <- predict(rf_fit, test_data) %>%
+  bind_cols(test_data)
+
+metrics(rf_preds, truth = Species, estimate = .pred_class)
+```
+
+# 5. Confusion matrix
+```{r}
+rf_preds %>%
+  conf_mat(truth = Species, estimate = .pred_class) %>%
+  autoplot(type = "heatmap")
+```
+
+# 6. Feature importance
+```{r}
+rf_fit %>%
+  extract_fit_parsnip() %>%
+  vip()
+```
+
+# 7. Conclusion
+Random Forest performs well on the Iris dataset with minimal tuning. Petal dimensions are most predictive for species classification.

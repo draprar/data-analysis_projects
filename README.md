@@ -57,6 +57,20 @@ This repository contains a collection of data analysis projects utilizing **Powe
     - Interactive slicers for filtering data by gender, age group, BMI category, etc.  
 - **Purpose**: This project focuses on predicting the number of calories burnt based on biological measures and workout parameters, utilizing Excel for initial analysis.
 
+### Project 5: Iris Random Forest Classification
+
+- **Tools Used**: Python, R
+- **Description**: Classification of Iris flower species using the Random Forest algorithm.
+- **Files**:
+  - `iris_rf_python.ipynb`: Full Python ML pipeline including EDA, training, evaluation, and visualizations.
+  - `iris_rf_r+report.Rmd`: Equivalent analysis using R and tidymodels, ready for knitting to PDF/HTML.
+- **Key Insights**
+  - Exploratory Data Analysis (EDA)
+  - Train/Test Split
+  - Random Forest Classifier
+  - Confusion Matrix and Accuracy Evaluation
+  - Python vs R comparison
+
 ## How to Use
 
 To explore the projects:  
