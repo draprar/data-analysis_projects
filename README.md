@@ -5,7 +5,7 @@ This repository contains a collection of data analysis projects utilizing **Powe
 ## Projects
 
 ### **Project 1: Dataline Bike Company Sales and Profit Analysis**  
-- **Tools Used**: Power BI  
+- **Tools Used**: Power BI, Python (Jupyter Notebook)  
 - **Data Source**: Sales data (2017-2020) from CSV and Excel files, covering orders, pricing, product costs, and sales territories.  
 - **Key Insights**:  
   - Profitability by country (map visualization).  
@@ -13,7 +13,9 @@ This repository contains a collection of data analysis projects utilizing **Powe
   - Profit breakdown by category/subcategory (matrix with conditional formatting).  
   - Top 10 customers by revenue (bar charts).  
   - Interactive filtering for detailed order breakdown.  
-- **Purpose**: This project replaces static reports with an interactive Power BI dashboard, helping Dataline Bike Company analyze product performance, revenue growth, and customer trends.  
+  - **Customer segmentation using KMeans clustering (Python)** based on revenue, profit, average order value, profit margin, and customer lifecycle (CustomerAgeDays).  
+  - Segment profiles integrated with Power BI for additional behavioral insights (e.g. loyal high-spenders, one-time buyers, low-value shoppers).  
+- **Purpose**: This project replaces static reports with an interactive Power BI dashboard, helping Dataline Bike Company analyze product performance, revenue growth, and customer trends. The project was extended with unsupervised machine learning to identify distinct customer groups and enable more targeted, data-driven business decisions.
 
 ### **Project 2: U.S. Electricity Prices Analysis by State and Sector**  
 - **Tools Used**: Power BI  
