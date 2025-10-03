@@ -1,10 +1,9 @@
-# Data Analysis Projects 
+# 📊 Data Analysis Projects
+A collection of **Power BI, Excel, Python (Jupyter Notebook), and R** projects for exploring **data visualization, statistical analysis, and predictive modeling**. Dive into interactive dashboards, notebooks, and spreadsheets.
 
-This repository contains a collection of data analysis projects utilizing **Power BI, Excel, Python (Jupyter Notebook), and R**. Each project demonstrates different aspects of **data visualization, statistical analysis, and predictive modeling**, showcasing how various tools can transform raw data into actionable insights.  
+## 🚀 Projects
 
-## Projects
-
-### **Project 1: Dataline Bike Company Sales and Profit Analysis**  
+### **1️⃣ Dataline Bike Company Sales and Profit Analysis**  
 - **Tools Used**: Power BI, Python (Jupyter Notebook)  
 - **Data Source**: Sales data (2017-2020) from CSV and Excel files, covering orders, pricing, product costs, and sales territories.  
 - **Key Insights**:  
@@ -17,7 +16,7 @@ This repository contains a collection of data analysis projects utilizing **Powe
   - Segment profiles integrated with Power BI for additional behavioral insights (e.g. loyal high-spenders, one-time buyers, low-value shoppers).  
 - **Purpose**: This project replaces static reports with an interactive Power BI dashboard, helping Dataline Bike Company analyze product performance, revenue growth, and customer trends. The project was extended with unsupervised machine learning to identify distinct customer groups and enable more targeted, data-driven business decisions.
 
-### **Project 2: U.S. Electricity Prices Analysis by State and Sector**  
+### **2️⃣ U.S. Electricity Prices Analysis by State and Sector**  
 - **Tools Used**: Power BI  
 - **Data Source**: U.S. Energy Information Administration (EIA) data on electricity prices (residential, commercial, industrial, transportation sectors) from 2002 onward.  
 - **Key Insights**:  
@@ -27,7 +26,7 @@ This repository contains a collection of data analysis projects utilizing **Powe
   - KPI indicators highlighting states with highest/lowest electricity prices.  
 - **Purpose**: This analysis provides insights into **regional electricity price trends**, supporting **energy policy evaluation, cost optimization, and market research**.  
 
-### **Project 3: Gun Price Analysis and Prediction**  
+### **3️⃣ Gun Price Analysis and Prediction**  
 - **Tools Used**: Power BI, Excel, Python (Jupyter Notebook)  
 - **Data Source**: Firearm dataset (Kaggle | [dataset](https://www.kaggle.com/datasets/rashadrmammadov/gun-price-prediction-linear-regression-model/data/) - [my notebook](https://www.kaggle.com/code/walerys/gun-price-analysis-and-prediction/)) with attributes like Age, Weight, Muzzle Velocity, Max Range, and Price.  
 - **Key Insights**:  
@@ -48,7 +47,7 @@ This repository contains a collection of data analysis projects utilizing **Powe
       - Model evaluation (R², RMSE) and feature importance analysis.  
 - **Purpose**: This project explores **factors influencing firearm prices**, leveraging **Power BI for visualization**, **Excel for structured data exploration**, and **Python for in-depth statistical analysis and predictive modeling**.  
 
-### **Project 4: Calories Burnt Prediction**  
+### **4️⃣ Calories Burnt Prediction**  
 - **Tools Used**: Excel
 - **Data Source**: Dataset (Kaggle | [dataset](https://www.kaggle.com/datasets/ruchikakumbhar/calories-burnt-prediction/data/)) with biological measures such as Age, Weight, Heart Rate, Duration of workout, etc., used to predict the number of calories burnt during a workout.  
 - **Key Insights**:  
@@ -59,7 +58,7 @@ This repository contains a collection of data analysis projects utilizing **Powe
     - Interactive slicers for filtering data by gender, age group, BMI category, etc.  
 - **Purpose**: This project focuses on predicting the number of calories burnt based on biological measures and workout parameters, utilizing Excel for initial analysis.
 
-### Project 5: Iris Random Forest Classification
+### 5️⃣ Iris Random Forest Classification
 
 - **Tools Used**: Python, R
 - **Description**: Classification of Iris flower species using the Random Forest algorithm.
@@ -73,7 +72,7 @@ This repository contains a collection of data analysis projects utilizing **Powe
   - Confusion Matrix and Accuracy Evaluation
   - Python vs R comparison
 
-## How to Use
+## 🛠️ How to Use
 
 To explore the projects:  
 ### **Power BI Reports**  
@@ -107,10 +106,10 @@ To explore the projects:
    ```
 4. This will render the report and save it in the same directory.
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License.
 
-## Contact
+## 📬 Contact
 
 If you have any questions or feedback, feel free to reach out to me or open an issue here on GitHub.
